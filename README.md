@@ -1,4 +1,4 @@
-# Image-to-Game-of-Life-Replay
+# Image to Game of Life Replay
 
 Turn an image into a cellular automaton animation, then **play it in reverse** to create an image reconstruction effect. 
 
