@@ -38,13 +38,13 @@ Built with an interactive Jupyter widget UI lets you experiment with rules, upda
 
 ## Update rules 
 
-- **Conway**: B3/S23
-- **HighLife**: B36/S23
-- **Day & Night**: B3678/S34678
-- **Maze**: B3/S12345
-- **Seeds**: B2/S0 (explosive)
-- **2x2**: B36/S125
-- **Anneal**: B4678/S35678 (gradual morphing)
+- `Conway`: B3/S23
+- `HighLife`: B36/S23
+- `Day & Night`: B3678/S34678
+- `Maze`: B3/S12345
+- `Seeds`: B2/S0 (explosive)
+- `2x2`: B36/S125
+- `Anneal`: B4678/S35678 (gradual morphing)
 
 ---
 
