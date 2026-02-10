@@ -55,28 +55,34 @@ Built with an interactive Jupyter widget UI lets you experiment with rules, upda
     <th style="text-align:center;">Target</th>
     <th style="text-align:center;">Conway · Uniform</th>
     <th style="text-align:center;">Conway · Ramp</th>
-    <th style="text-align:center;">Conway · Patch (50%)</th>
-    <th style="text-align:center;">Anneal · Uniform (50%)</th>
-    <th style="text-align:center;">Maze · Uniform (50%)</th>
   </tr>
   <tr>
     <td style="text-align:center;">
       <img src="example/flower.png" width="220">
     </td>
     <td style="text-align:center;">
-      <img src="example/flower_conway_uniform.gif" width="220">
+      <img src="example/conway_uniform.gif" width="220">
     </td>
     <td style="text-align:center;">
-      <img src="example/flower_conway_ramp.gif" width="220">
+      <img src="example/conway_ramp.gif" width="220">
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th style="text-align:center;">Conway · Patch</th>
+    <th style="text-align:center;">Anneal · Noise 50%</th>
+    <th style="text-align:center;">Maze · Noise 50%</th>
+  </tr>
+  <tr>
+    <td style="text-align:center;">
+      <img src="example/conway_patch.gif" width="220">
     </td>
     <td style="text-align:center;">
-      <img src="example/flower_conway_patch.gif" width="220">
+      <img src="example/anneal_noise50.gif" width="220">
     </td>
     <td style="text-align:center;">
-      <img src="example/flower_anneal_uniform.gif" width="220">
-    </td>
-    <td style="text-align:center;">
-      <img src="example/flower_maze_uniform.gif" width="220">
+      <img src="example/maze_noise50.gif" width="220">
     </td>
   </tr>
 </table>
