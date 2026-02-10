@@ -4,7 +4,7 @@ Turn an image into a cellular automaton animation, then **play it in reverse** t
 
 The image is first reduced to a small set of colors and split into separate binary layers—one per color. Each layer evolves independently using a Game-of-Life–style rule, optionally with partial or noisy updates. The evolved layers are then recombined into full-color frames, producing animations that appear to organically assemble, dissolve, or glitch back into the original image. 
 
-Built with an interactive Jupyter widget UI lets you experiment with rules, update modes, color counts, playback speed, and export the result as a GIF.
+Built with an interactive Jupyter widget UI lets you experiment with rules, update modes, color counts, play speed, and export as a GIF.
 
 ---
 
@@ -21,7 +21,13 @@ Built with an interactive Jupyter widget UI lets you experiment with rules, upda
 
 ---
 
-### Update modes 
+## Installation
+
+    pip install numpy matplotlib pillow ipywidgets
+
+---
+
+## Update modes 
 
 - `uniform`: all grid cells update each step 
 - `patch`: a random rectangular block of cells updates each step 
@@ -30,7 +36,7 @@ Built with an interactive Jupyter widget UI lets you experiment with rules, upda
 
 ---
 
-### Supported rules 
+## Update rules 
 
 - **Conway**: B3/S23
 - **HighLife**: B36/S23
@@ -42,8 +48,38 @@ Built with an interactive Jupyter widget UI lets you experiment with rules, upda
 
 ---
 
-## Installation
+## Examples
 
-```bash
+<table>
+  <tr>
+    <th style="text-align:center;">Target</th>
+    <th style="text-align:center;">Conway · Uniform</th>
+    <th style="text-align:center;">Conway · Ramp</th>
+    <th style="text-align:center;">Conway · Patch (50%)</th>
+    <th style="text-align:center;">Anneal · Uniform (50%)</th>
+    <th style="text-align:center;">Maze · Uniform (50%)</th>
+  </tr>
+  <tr>
+    <td style="text-align:center;">
+      <img src="example/flower.png" width="220">
+    </td>
+    <td style="text-align:center;">
+      <img src="example/flower_conway_uniform.gif" width="220">
+    </td>
+    <td style="text-align:center;">
+      <img src="example/flower_conway_ramp.gif" width="220">
+    </td>
+    <td style="text-align:center;">
+      <img src="example/flower_conway_patch.gif" width="220">
+    </td>
+    <td style="text-align:center;">
+      <img src="example/flower_anneal_uniform.gif" width="220">
+    </td>
+    <td style="text-align:center;">
+      <img src="example/flower_maze_uniform.gif" width="220">
+    </td>
+  </tr>
+</table>
 
-pip install numpy matplotlib pillow ipywidgets
+
+
